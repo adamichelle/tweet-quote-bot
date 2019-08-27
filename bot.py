@@ -3,7 +3,6 @@ import random
 import time
 import sys
 import tweepy
-import credentials
 from os import environ
 
 consumer_key = environ['API_KEY']
