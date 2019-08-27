@@ -30,8 +30,8 @@ def create_tweet():
     return tweet
 
 def tweet_quote():
-    #interval = 60 * 60 * 24
-    interval = 60
+    interval = 60 * 60 * 24
+    #interval = 60 # for testing purposes
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret_key)
     auth.set_access_token(access_token, access_token_secret)
