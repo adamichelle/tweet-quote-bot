@@ -4,11 +4,12 @@ import time
 import sys
 import tweepy
 import credentials
+from os import environ
 
-consumer_key = credentials.API_KEY
-consumer_secret_key = credentials.API_SECRET_KEY
-access_token = credentials.ACCESS_TOKEN
-access_token_secret = credentials.ACCESS_TOKEN_SECRET
+consumer_key = environ['API_KEY']
+consumer_secret_key = environ['API_SECRET_KEY']
+access_token = environ['ACCESS_TOKEN']
+access_token_secret = environ['ACCESS_TOKEN_SECRET']
 
 def get_quotes():
     with open('data.json') as f:
