@@ -42,3 +42,4 @@ After doing that, you can proceed to doing the steps listed below:
   1. [How to set up a twitter bot with Python and Heroku](https://dev.to/emcain/how-to-set-up-a-twitter-bot-with-python-and-heroku-1n39)
   2. [Build and Deploy Twitter Bots with Python, Tweepy and PythonAnywhere](https://www.twilio.com/blog/build-deploy-twitter-bots-python-tweepy-pythonanywhere)
   3. [Selecting Random Item From a List](https://pynative.com/python-random-choice/)
+  4. [Deploying python applications with heroku](https://stackoverflow.com/a/50498116)
