@@ -29,8 +29,8 @@ def create_tweet():
     return tweet
 
 def tweet_quote():
-    #interval = 60 # for testing purposes
-
+    interval = 60 * 24 * 24
+    
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret_key)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)
@@ -38,13 +38,12 @@ def tweet_quote():
     tweet = create_tweet()
     api.update_status(tweet)
 
-    """ not necessary again
-        while True:
+    while True:
         print('getting a random quote...')        
         tweet = create_tweet()
         api.update_status(tweet)
         time.sleep(interval) 
-    """
+   
 
 if __name__ == "__main__":
     tweet_quote()
