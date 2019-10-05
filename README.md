@@ -31,6 +31,8 @@ After doing that, you can proceed to doing the steps listed below:
   
   ## Deployment to Heroku
   You can follow the tutorial found [here](https://dev.to/emcain/how-to-set-up-a-twitter-bot-with-python-and-heroku-1n39)
+  UPDATE:
+  I wrote about it [here](https://medium.com/datadriveninvestor/making-a-quote-tweeting-twitter-bot-with-python-tweepy-and-heroku-69a11cd3f47e) also.
   
   ## Example Quotes
   1. I am a Khaleesi of the Dothraki. I am the wife of the great Kahl and I carry his son inside me. The next time you raise a hand to me will be the last time you have hands. 
